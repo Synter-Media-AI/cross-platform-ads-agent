@@ -2,7 +2,7 @@
 
 [![MCP Compatible](https://img.shields.io/badge/MCP-compatible-blue)](https://modelcontextprotocol.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Platform: Multi-Platform](https://img.shields.io/badge/Platform-All%20Platforms-FF6B35)](https://syntermedia.ai)
+[![Platform: Multi-Platform](https://img.shields.io/badge/Platform-All%20Platforms-FF6B35)](https://synterai.com)
 
 **One agent, every ad platform.** Open this repo in Amp, Cursor, or VS Code and manage Google, Meta, LinkedIn, Microsoft, Reddit, TikTok, X, Amazon, Spotify, and The Trade Desk — all from a single chat window with unified reporting and cross-channel budget optimization.
 
@@ -22,22 +22,20 @@ A cross-platform AI agent collapses all these silos. One question — "Which pla
 
 ## Quick Start (30 Seconds)
 
-### Amp / Cursor / VS Code (Copilot)
+### Zero-Auth Sandbox Demo Mode
+Want to test Synter MCP immediately without creating an account or connecting live ad platforms? You can run any read tool in **demo mode** (`demo=true` or `--demo`) to receive realistic cross-platform advertising data instantly:
+- *"Show me sample Google Ads performance with demo=true"*
+- *"List demo campaigns across Meta, LinkedIn, and Google"*
 
-1. **Get a free API key** at [syntermedia.ai/developer](https://syntermedia.ai/developer)
+### Connect Your Ad Platforms (1-Click)
+To manage live advertising across any of the 27 supported platforms:
+1. **Get an API key** at [synterai.com/developer](https://synterai.com/developer)
 2. **Set the key:**
    ```bash
    export SYNTER_API_KEY=syn_your_key_here
    ```
-3. **Open this repo** in your editor
-4. **Start chatting** — MCP tools are pre-configured in `.mcp.json`
-
-### Claude Desktop
-
-Copy `claude_desktop_config.json` to your Claude config directory and replace the API key:
-
-- **macOS:** `~/Library/Application Support/Claude/claude_desktop_config.json`
-- **Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
+3. **Connect your platforms:** Visit [synterai.com/settings/credentials](https://synterai.com/settings/credentials) to link Google Ads, Meta Ads, LinkedIn, X, TikTok, Reddit, and more with 1-click OAuth.
+4. **Start chatting:** Open this repo in Amp, Cursor, Claude Code, or VS Code — MCP tools are pre-configured in `.mcp.json`.
 
 ---
 
@@ -241,4 +239,4 @@ Every platform has a dedicated repo with deeper documentation:
 
 MIT — see [LICENSE](LICENSE) for details.
 
-Built by [Synter](https://syntermedia.ai) · [Get API Key](https://syntermedia.ai/developer) · [Documentation](https://syntermedia.ai/docs)
+Built by [Synter](https://synterai.com) · [Get API Key](https://synterai.com/developer) · [Documentation](https://synterai.com/mcp)
