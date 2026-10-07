@@ -1,6 +1,6 @@
 # Cross-Platform Ads MCP Starter Kit — Manage All Ad Platforms with AI
 
-> **This is a recipe repo.** The Synter MCP server itself lives at [Synter-Media-AI/mcp-server](https://github.com/Synter-Media-AI/mcp-server): create, launch, and optimize campaigns across the major ad platforms, with one-click install in Cursor, Claude, ChatGPT, and VS Code. Issues, releases, and ⭐ go there.
+> **This is a recipe repo.** The Synter MCP server itself lives at [Synter-Media-AI/mcp-server](https://github.com/Synter-Media-AI/mcp-server): create, launch, and optimize campaigns across 16 ad platforms, with one-click install in Cursor, Claude, ChatGPT, and VS Code. Issues, releases, and ⭐ go there.
 
 
 [![MCP Compatible](https://img.shields.io/badge/MCP-compatible-blue)](https://modelcontextprotocol.io)
@@ -27,7 +27,7 @@
   codex mcp login synter-ads
   ```
 - **Claude Desktop:** copy `claude_desktop_config.json` into your Claude config directory (macOS: `~/Library/Application Support/Claude/`, Windows: `%APPDATA%\Claude\`) and replace the placeholder API key.
-- **Connect your ad platforms:** after signing in, link your accounts at [synterai.com/settings/credentials](https://synterai.com/settings/credentials).
+- **Connect your ad platforms:** after signing in, link accounts on any of the 16 ad platforms at [synterai.com/settings/credentials](https://synterai.com/settings/credentials).
 
 Your client opens Synter sign-in in the browser (OAuth). New here? Create an account at https://synterai.com/sign-up. Headless/CI fallback: send `X-Synter-Key` with a key from https://synterai.com/developer.
 
